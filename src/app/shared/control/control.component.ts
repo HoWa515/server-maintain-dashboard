@@ -20,7 +20,6 @@ export class ControlComponent {
   private hostEl = inject(ElementRef);
 
   onClick() {
-    console.log('🧡');
     console.log(this.hostEl);
   }
 }
